@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the manuscript below."
+title: "Payload-integrity audit of the MOVER v2 arterial-pressure waveforms"
+type: software
+authors:
+  - family-names: Lu
+    given-names: Jinfang
+  - family-names: Yuan
+    given-names: Hongbin
+repository-code: "https://github.com/fangcszz/mover-payload-audit"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Payload integrity as a measurement-validity problem in routinely collected waveform data: an archive-wide audit finding 94.6% of arterial-pressure payloads unusable, with correct declared gain"
+  authors:
+    - family-names: Lu
+      given-names: Jinfang
+    - family-names: Yuan
+      given-names: Hongbin
+  journal: "BMC Medical Research Methodology"
+  year: 2026
