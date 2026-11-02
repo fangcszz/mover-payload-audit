@@ -32,8 +32,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 # 分析级产出目录（gpu1）
-SRC = os.environ.get("MOVER_ABPCONTROL",
-                     "/mnt/share/ljfang/exp/results/run-20260913-abpcontrol")
+SRC = "/mnt/share/ljfang/exp/results/run-20260913-abpcontrol"
 # 生成器与配对辅助模块（gpu1 上 _probe/ 内的工作副本）
 HELPERS = f"{SRC}/_probe"
 
@@ -219,16 +218,18 @@ def _panel_b_impl(ax, src, rows, packets_for, read_numeric, files_by_pid, dt_utc
 
     axL.set_xlabel("time within segment (s)", fontsize=8.5)
     axL.set_ylabel("raw code", fontsize=8.5)
-    axL.set_title("S  readable pulsatile (8 s)", fontsize=9, loc="left")
+    axL.set_title("B1  Class S: readable pulsatile (8 s)", fontsize=9, loc="left")
     axL.grid(alpha=0.22, lw=0.4)
     axL.tick_params(labelsize=7.5)
 
     axR.set_xlabel("time (ms)", fontsize=8.5)
-    axR.set_title("A  period-2 alternation, zoomed", fontsize=9, loc="left")
+    axR.set_title("B2  Class A: period-2 alternation (144 ms)", fontsize=9, loc="left")
     axR.grid(alpha=0.22, lw=0.4)
     axR.tick_params(labelsize=7.5)
     axR.set_ylim(-560, 620)
-    axR.legend(fontsize=6.5, frameon=False, loc="upper left", ncol=1)
+    axR.legend(fontsize=6.0, frameon=False, loc="upper center", ncol=3,
+               bbox_to_anchor=(0.5, 1.0), handlelength=1.1,
+               columnspacing=0.8, borderaxespad=0.15)
     return True
 
 
