@@ -5,8 +5,14 @@ type: software
 authors:
   - family-names: Lu
     given-names: Jinfang
-  - family-names: Yuan
-    given-names: Hongbin
+  - family-names: Yang
+    given-names: Wangting
+  - family-names: Li
+    given-names: Yuchen
+  - family-names: Li
+    given-names: Zhenjie
+  - family-names: Zheng
+    given-names: Fen
 repository-code: "https://github.com/fangcszz/mover-payload-audit"
 license: MIT
 preferred-citation:
@@ -15,7 +21,13 @@ preferred-citation:
   authors:
     - family-names: Lu
       given-names: Jinfang
-    - family-names: Yuan
-      given-names: Hongbin
+    - family-names: Yang
+      given-names: Wangting
+    - family-names: Li
+      given-names: Yuchen
+    - family-names: Li
+      given-names: Zhenjie
+    - family-names: Zheng
+      given-names: Fen
   journal: "BMC Medical Research Methodology"
   year: 2026
