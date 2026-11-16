@@ -17,7 +17,7 @@ repository-code: "https://github.com/fangcszz/mover-payload-audit"
 license: MIT
 preferred-citation:
   type: article
-  title: "Payload integrity as a measurement-validity problem in routinely collected waveform data: an archive-wide audit finding 94.6% of arterial-pressure payloads unusable, with correct declared gain"
+  title: "Payload integrity as a measurement-validity problem in routinely collected waveform data: an archive-wide audit of arterial-pressure usability and declared gain"
   authors:
     - family-names: Lu
       given-names: Jinfang

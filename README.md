@@ -3,9 +3,8 @@
 Code accompanying the manuscript:
 
 > **Payload integrity as a measurement-validity problem in routinely collected waveform data:
-> an archive-wide audit finding 94.6% of arterial-pressure payloads unusable, with correct
-> declared gain.**
-> Lu J, Yuan H. *BMC Medical Research Methodology* (under review).
+> an archive-wide audit of arterial-pressure usability and declared gain.**
+> Lu J, Yang W, Li Y, Li Z, Zheng F. *BMC Medical Research Methodology* (submitted).
 
 The audit asks whether the waveform archive of the
 [Medical Informatics Operating Room Vitals and Events Repository (MOVER) v2](https://doi.org/10.24432/C5VS5G)
